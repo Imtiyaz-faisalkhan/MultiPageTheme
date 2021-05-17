@@ -1,0 +1,52 @@
+.navbar .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1.2rem  !important;
+    padding-right: 1.2rem !important;
+}
+
+.navbar .nav-item.active {
+    border-left: #444 3px solid;
+}
+
+.carousel-item{
+    height: 450px;
+}
+.navbar-toggler{
+   float: right !important; 
+}
+.carousel-image-1{
+    background: url('../img/image1.jpg');
+    background-size: cover;
+
+}
+
+.carousel-image-2{
+    background: url('../img/image2.jpg');
+    background-size: cover;
+
+}
+
+.carousel-image-3{
+    background: url('../img/image3.jpg');
+    background-size: cover;
+
+}
+
+#home-heading{
+    position: relative;
+    min-height: 200px;
+    background:url('../img/lights.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+.dark-overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgba(0, 0,0, 0.7);
+}
